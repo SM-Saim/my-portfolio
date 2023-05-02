@@ -1,0 +1,39 @@
+body {
+    font-family: 'Titillium Web', sans-serif;
+    margin: 0;
+}
+
+h1 {
+    font-size: 50px;
+}
+
+.color {
+    color: darkorange;
+}
+
+section {
+    display: flex
+}
+
+.half-width {
+    width: 50%;
+    padding-left: 5%;
+}
+
+.half-width img {
+    width: 80%;
+}
+
+.link-open-button {
+    text-decoration: none;
+    background-image: linear-gradient(orange, tomato);
+    padding: 10px 40px;
+    border-radius: 7px;
+    color: white;
+    font-weight: 700;
+}
+
+.top-banner-image {
+    background-image: url(images/dna-expo.png);
+    background-repeat: no-repeat;
+}
