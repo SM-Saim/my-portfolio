@@ -12,16 +12,18 @@ h1 {
 }
 
 section {
-    display: flex
+    display: flex;
+    margin-bottom: 150px;
 }
 
 .half-width {
     width: 50%;
     padding-left: 5%;
+    text-align: justify;
 }
 
 .half-width img {
-    width: 80%;
+    width: 90%;
 }
 
 .link-open-button {
@@ -33,7 +35,22 @@ section {
     font-weight: 700;
 }
 
+.resume-button {
+    text-decoration: none;
+    background-image: linear-gradient(#cfffd8, #94b9ff);
+    padding: 10px 40px;
+    border-radius: 7px;
+    color: rgb(19, 7, 121);
+    font-weight: 700;
+}
+
 .top-banner-image {
-    background-image: url(images/dna-expo.png);
+    background-image: url(images/1st-bg.png);
+    background-position: left;
+}
+
+.career-objective {
+    background-image: url(images/dna-explusion\ .png);
     background-repeat: no-repeat;
+    background-position: right;
 }
