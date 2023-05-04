@@ -11,7 +11,7 @@ h1 {
     color: darkorange;
 }
 
-section {
+.flexible-section {
     display: flex;
     margin-bottom: 150px;
 }
@@ -50,7 +50,44 @@ section {
 }
 
 .career-objective {
-    background-image: url(images/dna-explusion\ .png);
+    background-image: url(images/2nd-bg.png);
     background-repeat: no-repeat;
     background-position: right;
+}
+
+.coil-color {
+    color: dimgray;
+}
+
+.experience-area {
+    width: 40%;
+    margin-left: 5%;
+    margin-right: 5%;
+    padding-left: 20px;
+    padding-right: 20px;
+    border-radius: 10px;
+
+    box-shadow: 10px 10px 40px gray;
+}
+
+.experience-section {
+    background-image: url(images/futter.png);
+    background-position: left;
+}
+
+#experience-right-side {
+    border-left: 7px solid;
+    border-image: linear-gradient(blue, cyan);
+    border-image-slice: 1;
+}
+
+#experience-left-side {
+    border-left: 7px solid;
+    border-image: linear-gradient(#FFC988, #E288F9);
+    border-image-slice: 1;
+
+}
+
+footer p {
+    text-align: center;
 }
